@@ -1,13 +1,182 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+.book-wrap img {
+  width: 100%;
+}
+
+body {
+  background: radial-gradient(circle at top, #06090f, #02040a);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo {
+  color: #ffcc66;
+}
+
+.cta-btn {
+  border: 1px solid #ffcc66;
+  color: #ffcc66;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #ffcc66;
+  color: black;
+}
+
+.hero {
+  padding: 5rem 0;
+  background: radial-gradient(circle, rgba(255, 200, 0, 0.1), transparent);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h1 span {
+  color: #ffcc66;
+}
+
+.hero-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background: #ffcc66;
+  color: #000;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-play {
+  opacity: 0.8;
+}
+
+.book-wrap {
+  text-align: center;
+}
+
+.book {
+  width: 280px;
+  animation: float 4s ease-in-out infinite;
+  filter: drop-shadow(0 20px 40px rgba(255, 200, 0, 0.4));
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.books {
+  padding: 4rem 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 16px;
+}
+
+.main {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid rgba(255, 200, 0, 0.4);
+}
+
+.main img {
+  width: 120px;
+}
+
+.badge {
+  background: #ffcc66;
+  color: black;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+.ghost {
+  opacity: 0.6;
+  text-align: center;
+}
+
+.about {
+  padding: 4rem 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.author {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.subscribe {
+  padding: 3rem 0;
+}
+
+.sub-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.sub-form {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+input {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+}/*# sourceMappingURL=style.css.map */
