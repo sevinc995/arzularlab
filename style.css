@@ -157,23 +157,24 @@ h1 span {
 }
 
 .subscribe {
-  padding: 3rem 0;
-}
-
-.sub-box {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 2rem;
-  border-radius: 16px;
-}
-
-.sub-form {
+  padding: 70px;
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+  align-items: center;
+  flex-direction: column;
 }
 
-input {
+.form {
+  max-width: 700px;
+  display: flex;
+}
+.form input {
+  max-width: 700px;
   flex: 1;
+  height: 45px;
+}
+.form button {
+  width: 200px;
+  height: 45px;
 }
 
 .footer {
